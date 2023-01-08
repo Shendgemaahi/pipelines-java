@@ -20,3 +20,16 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your commands here
+      
+      echo 'Hello world my first scripty'
+      kys vksdfjsdfs fsdfsjfnslkdfslkdfjslkfjsljf '
+      dfaadf
+      
+      adadasdas
+      dafdsdf;smdf;lsdmf;sldmf'
